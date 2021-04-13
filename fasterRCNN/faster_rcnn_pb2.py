@@ -3542,9 +3542,8 @@ def predict(image_path):
 
 def main(image_path):
     arr = predict(image_path)
-    #print(type(arr))
-    #img = Image.fromarray(arr)
     Image.fromarray(arr).show()
+    '''
     FOLDER = r"C:\Users\rosha\OneDrive\Documents\Projects\Crack_detection\fasterRCNN\data\crack_images_input"
     for i in range(1, len(os.listdir(FOLDER))+1):
         image = FOLDER + "\\image" + str(i) + ".jpeg"
@@ -3554,3 +3553,4 @@ def main(image_path):
             img.save("image"+str(i)+".PNG")
         except AttributeError:
             print("Couldn't save image {}".format(image))
+    '''
