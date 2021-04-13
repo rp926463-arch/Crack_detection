@@ -26,5 +26,4 @@ python app.py
 # Testing
 Upload image to webpage it will launch output using windows image viewer
 
-#Data
-input & Output data present under data folder for reference.
+#input & Output data present under data folder for reference.
