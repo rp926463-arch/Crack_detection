@@ -1,4 +1,4 @@
-# Crack_detection
+# Crack_detection using FasterRCNN
 
 # Installing
 1. Clone the repository 
